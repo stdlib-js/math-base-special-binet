@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-binet",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Evaluate Binet's formula extended to real numbers.",
   "license": "Apache-2.0",
   "author": {
