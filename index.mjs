@@ -1,1 +1,3 @@
+/// <reference types="./index.d.ts" />
 import s from"https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-nan@esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cospi@esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-pow@esm/index.mjs";import i from"https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-phi@esm/index.mjs";import n from"https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-pinf@esm/index.mjs";import m from"https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-ninf@esm/index.mjs";var d=s,r=t,a=e,o=i,p=n,j=m;var l=function(s){var t;return d(s)||s===p||s===j?NaN:((t=a(o,s))-r(s)/t)/2.23606797749979};export{l as default};
+//# sourceMappingURL=index.mjs.map
