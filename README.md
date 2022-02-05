@@ -58,8 +58,26 @@ where `φ` is the [golden ratio][golden-ratio] and `ψ` is `1 - φ`. To extend [
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var binet = require( '@stdlib/math-base-special-binet' );
+binet = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-binet@umd/bundle.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-binet@umd/bundle.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.binet;
+})()
+</script>
 ```
 
 #### binet( x )
@@ -114,8 +132,13 @@ var v = binet( NaN );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var binet = require( '@stdlib/math-base-special-binet' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-binet@umd/bundle.js"></script>
+<script type="text/javascript">
+(function () {
 
 var v;
 var i;
@@ -124,6 +147,11 @@ for ( i = 0; i < 79; i++ ) {
     v = binet( i );
     console.log( v );
 }
+
+})()
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -197,6 +225,13 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 -->
 
+[umd]: https://github.com/umdjs/umd
+[es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
+
+[deno-url]: https://github.com/stdlib-js/math-base-special-binet/tree/deno
+[umd-url]: https://github.com/stdlib-js/math-base-special-binet/tree/umd
+[esm-url]: https://github.com/stdlib-js/math-base-special-binet/tree/esm
+
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
 
@@ -212,9 +247,9 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/fibonacci]: https://github.com/stdlib-js/math-base-special-fibonacci
+[@stdlib/math/base/special/fibonacci]: https://github.com/stdlib-js/math-base-special-fibonacci/tree/umd
 
-[@stdlib/math/base/special/negafibonacci]: https://github.com/stdlib-js/math-base-special-negafibonacci
+[@stdlib/math/base/special/negafibonacci]: https://github.com/stdlib-js/math-base-special-negafibonacci/tree/umd
 
 <!-- </related-links> -->
 
