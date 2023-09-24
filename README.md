@@ -78,7 +78,7 @@ F_x = \frac{\varphi^x - \varphi^{-x} \cdot \cos(\pi x)}{\sqrt{5}}
 ## Usage
 
 ```javascript
-import binet from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-binet@esm/index.mjs';
+import binet from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-binet@v0.1.0-esm/index.mjs';
 ```
 
 #### binet( x )
@@ -139,7 +139,7 @@ var v = binet( NaN );
 <body>
 <script type="module">
 
-import binet from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-binet@esm/index.mjs';
+import binet from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-binet@v0.1.0-esm/index.mjs';
 
 var v;
 var i;
