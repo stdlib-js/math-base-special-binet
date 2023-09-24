@@ -78,6 +78,11 @@ F_x = \frac{\varphi^x - \varphi^{-x} \cdot \cos(\pi x)}{\sqrt{5}}
 ## Usage
 
 ```javascript
+import binet from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-binet@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-binet/tags). For example,
+
+```javascript
 import binet from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-binet@v0.1.0-esm/index.mjs';
 ```
 
@@ -139,7 +144,7 @@ var v = binet( NaN );
 <body>
 <script type="module">
 
-import binet from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-binet@v0.1.0-esm/index.mjs';
+import binet from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-binet@esm/index.mjs';
 
 var v;
 var i;
