@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-binet",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Evaluate Binet's formula extended to real numbers.",
   "license": "Apache-2.0",
   "author": {
@@ -46,15 +46,15 @@
     "@stdlib/math-base-assert-is-nan": "^0.2.2",
     "@stdlib/math-base-napi-unary": "^0.2.3",
     "@stdlib/math-base-special-cospi": "^0.3.1",
-    "@stdlib/math-base-special-pow": "^0.2.1",
+    "@stdlib/math-base-special-pow": "^0.3.0",
     "@stdlib/utils-library-manifest": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/constants-float64-eps": "^0.2.2",
-    "@stdlib/math-base-special-abs": "^0.2.1",
-    "@stdlib/math-base-special-fibonacci": "^0.2.1",
+    "@stdlib/math-base-special-abs": "^0.2.2",
+    "@stdlib/math-base-special-fibonacci": "^0.2.2",
     "@stdlib/math-base-special-floor": "^0.2.3",
-    "@stdlib/math-base-special-negafibonacci": "^0.2.1",
+    "@stdlib/math-base-special-negafibonacci": "^0.3.0",
     "@stdlib/random-base-randu": "^0.2.1",
     "@stdlib/utils-try-require": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
