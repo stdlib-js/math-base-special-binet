@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-05)
+## Unreleased (2025-03-31)
 
 <section class="reverts">
 
@@ -16,12 +16,25 @@
 
 <!-- /.reverts -->
 
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#5862](https://github.com/stdlib-js/stdlib/issues/5862)
+
+</section>
+
+<!-- /.issues -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`7ae0a0a`](https://github.com/stdlib-js/stdlib/commit/7ae0a0a5479ab78f05a9044e1362caabad1db81a) - **bench:** ensure analytic formula is measured [(#5873)](https://github.com/stdlib-js/stdlib/pull/5873) _(by Anshu Kumar)_
 -   [`9b2d78d`](https://github.com/stdlib-js/stdlib/commit/9b2d78de67da47208451b8e6bbb7c1747a6e4854) - **bench:** refactor random value generation [(#5465)](https://github.com/stdlib-js/stdlib/pull/5465) _(by Saurabh Singh, stdlib-bot)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
 -   [`b0e68c5`](https://github.com/stdlib-js/stdlib/commit/b0e68c5bc8ee985794eb2ea1791c9337cd15fbd0) - **chore:** update to modern benchmark Makefile _(by Philipp Burckhardt)_
@@ -38,8 +51,9 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Anshu Kumar
 -   Philipp Burckhardt
 -   Saurabh Singh
 
